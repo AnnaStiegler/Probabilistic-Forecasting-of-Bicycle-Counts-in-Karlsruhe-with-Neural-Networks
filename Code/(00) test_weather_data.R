@@ -1,27 +1,19 @@
+# I want to check whether the missing data is because the meteorological data was missing or the bicycle counter data
+
 rm(list = ls())
 cwd = getwd()
 
 # = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
-install.packages("httr")
-install.packages("dplyr")
+# Install and load packages
 install.packages("rdwd")
-install.packages("ggplot2")
-install.packages("GGally")
-install.packages("corrplot")
+install.packages("httr")
 
-# Load Packages ####
-library(httr)
-library(dplyr)
 library(rdwd)
-
-library(ggplot2)
-library(GGally)
-library(corrplot)
+library(httr)
 
 # = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
 # Get from URL ####
 
-# Define the URL where your data is located
 url <- "https://www.eco-visio.net/api/aladdin/1.0.0/pbl/publicwebpageplus/data/100126474?idOrganisme=4586&idPdc=100126474&interval=4&flowIds=100126474"
 
 # Make a GET request to the URL and read the response content
@@ -48,17 +40,11 @@ bike_df <- data.frame(date = as.Date(data$date, format = "%m/%d/%Y"),
                       bike_count = as.numeric(data$bike_count))
 
 
-# Assuming your dataset is called bike_df and the 'date' column is in Date format
-
 # Generate a complete sequence of dates
 complete_range <- seq.Date(from = min(bike_df$date), to = max(bike_df$date), by = "day")
 
 # Find the missing dates by comparing the complete range with the actual dates in the dataset
 missing_dates <- setdiff(complete_range, bike_df$date)
-
-# Print the missing dates
-cat("Missing dates:\n")
-print(missing_dates)
 
 # Convert the numeric values back to Date objects
 missing_dates <- as.Date(missing_dates, origin = "1970-01-01")
@@ -66,6 +52,7 @@ missing_dates <- as.Date(missing_dates, origin = "1970-01-01")
 # Print the missing dates in a readable format
 cat("Missing dates:\n")
 print(missing_dates)
+# Missing dates do not correspond to the missing data from the bicycle counter dataset.
 
 bike_df$date <- as.Date(bike_df$date, format = "%Y-%m-%d")  # Change format if necessary
 # Find the minimum date in the 'date' column of your dataframe
@@ -73,5 +60,6 @@ min_date <- min(bike_df$date)
 
 # Print the minimum date
 print(min_date)
+
 
 
