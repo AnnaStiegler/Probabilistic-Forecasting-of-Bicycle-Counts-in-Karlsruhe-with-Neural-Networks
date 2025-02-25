@@ -33,9 +33,16 @@ The thesis' aim is developing a neural network that predicts the mean and standa
 
 ## How to Use the Project
 
-The jupyter notebooks are sorted in chronological order of how they were created. The notebooks do the following things:
+The jupyter notebooks are sorted in chronological order of how they were created. 
+
+### Most important Notebooks
+
+The most important notebooks are notebooks 1-5, 10, 13-16
+
 
 ### Notebook Overview
+
+The notebooks do the following things:
 
 (00) **Initial Data Exploration**: Taking a first look at the dataset—checking its structure, spotting potential issues and visualizing key trends.  
 
@@ -63,11 +70,11 @@ The jupyter notebooks are sorted in chronological order of how they were created
 
 (11) **Hyperparameter_Tuning_Testing**: Running initial tests with hyperparameter tuning and ensuring the `tune_nn` function works correctly.  
 
-(12) **Initial_GridSearch**: GridSearch with the finalized parameter grid of parameters that I want to tune and fewer layers per block.   
+(12) **GridSearch_Evaluation_Testing**: Reviewing results from the first GridSearch experiment (*Notebook 11*).
 
-(13) **GridSearch_Evaluation_Testing**: Reviewing results from the first GridSearch experiment (*Notebook 11*).  
+(13) **Initial_GridSearch**: GridSearch with the finalized parameter grid of parameters that I want to tune and fewer layers per block.   
 
-(14) **Initial_GridSearch_Evaluation**: Evaluating the GridSearch results from (*Notebook 12*).  
+(14) **Initial_GridSearch_Evaluation**: Evaluating the GridSearch results from (*Notebook 13*).  
 
 (15) **Final_GridSearch**: Running a final, more refined GridSearch to optimize the model and evaluating the final model.  
 
