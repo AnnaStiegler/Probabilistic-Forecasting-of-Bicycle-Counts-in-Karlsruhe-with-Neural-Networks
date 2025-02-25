@@ -1,4 +1,4 @@
-# Probabilistic-Forecasting-of-Bicycle-Counts-in-Karlsruhe-with-Neural-Networks
+# Probabilistic Forecasting of Bicycle Counts in Karlsruhe with Neural Networks
 
 This repository contains the code for the Bachelors Thesis of Anna-Isabell Stiegler.
 The thesis' aim is developing a neural network that predicts the mean and standard deviation of bicycle counts in Karlsruhe using different meteorological and date-related predictors.
