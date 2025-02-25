@@ -36,6 +36,7 @@ The thesis' aim is developing a neural network that predicts the mean and standa
 The jupyter notebooks are sorted in chronological order of how they were created. The notebooks do the following things:
 
 ### Notebook Overview
+1. (01) test
 <ol style="list-style-type:decimal-leading-zero;">
 <li>(00) **Initial Data Exploration**: Contains an initial data exploration.</li>
 <li>(00) **test_weather_data.R**: There were some missing data in the dataset, here I check whether these missing data points come from the meteorological data missing or not.</li>
