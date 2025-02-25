@@ -44,42 +44,26 @@ The most important notebooks are notebooks 1-5, 10 and 13-16
 
 The notebooks do the following things:
 
-(00) **Initial Data Exploration**: Taking a first look at the dataset—checking its structure, spotting potential issues and visualizing key trends.  
-
-(00) **test_weather_data.R**: Investigating missing values to determine if they stem from gaps in the meteorological data.  
-
-(01) **Feature_Engineering**: Creating new features, including indicators for public and school holidays, workdays, COVID-19 lockdowns and seasonal effects, to enhance model performance.  
-
-(02) **Plots**: Generating visualizations for the exploratory data analysis.  
-
-(03) **Train_test_split**: Splitting the dataset into training and test sets.  
-
-(04) **Benchmarking**: Establishing a baseline benchmark model to compare against the final NN model and evaluating it.  
-
-(05) **Preprocessing**: Preparing the data—further splitting the training set (into training and validation set), selecting relevant features and standardizing inputs for consistency.  
-
-(06) **Initial_NN_Testing**: Running early tests on different neural network architectures to see what works best.  
-
-(07) **Feature_Importance_Manual_Testing**: Experimenting with adding and removing features to see how they impact model performance (evaluated using CRPS).  
-
-(08) **Permutation_Importance_and_SHAP_Testing**: Looking at feature importance of different models through permutation importance and SHAP.  
-
-(09) **Testing_One-hot_Encoding_Seasons_and_Weekdays**: Evaluating whether one-hot encoding categorical variables like season and weekday improves model accuracy.  
-
-(10) **Feature_Selection**: Finalizing the feature selection.  
-
-(11) **Hyperparameter_Tuning_Testing**: Running initial tests with hyperparameter tuning and ensuring the `tune_nn` function works correctly.  
-
-(12) **GridSearch_Evaluation_Testing**: Reviewing results from the first GridSearch experiment (*Notebook 11*).
-
-(13) **Initial_GridSearch**: GridSearch with the finalized parameter grid of parameters that I want to tune and fewer layers per block.   
-
-(14) **Initial_GridSearch_Evaluation**: Evaluating the GridSearch results from *Notebook 13*.  
-
-(15) **Final_GridSearch**: Running a final, more refined GridSearch to optimize the model and evaluating the final model.  
-
-(16) **Feature_Importance_Final_Model**: Investigating feature importance of the final trained model.  
-
-(17) **Hyperparameter_Tuning_Testing**: Reassessing an alternative hyperparameter tuning strategy—unclear if useful, may need removal.  
+| **Notebook**                          | **Description**                                                                                                                                                        |
+|---------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| (00) **Initial Data Exploration**      | Taking a first look at the dataset—checking its structure, spotting potential issues and visualizing key trends.                                                     |
+| (00) **test_weather_data.R**           | Investigating missing values to determine if they stem from gaps in the meteorological data.                                                                          |
+| (01) **Feature_Engineering**           | Creating new features, including indicators for public and school holidays, workdays, COVID-19 lockdowns and seasonal effects, to enhance model performance.          |
+| (02) **Plots**                         | Generating visualizations for the exploratory data analysis.                                                                                                           |
+| (03) **Train_test_split**              | Splitting the dataset into training and test sets.                                                                                                                      |
+| (04) **Benchmarking**                  | Establishing a baseline benchmark model to compare against the final NN model and evaluating it.                                                                       |
+| (05) **Preprocessing**                 | Preparing the data—further splitting the training set (into training and validation set), selecting relevant features and standardizing inputs for consistency.         |
+| (06) **Initial_NN_Testing**            | Running early tests on different neural network architectures to see what works best.                                                                                   |
+| (07) **Feature_Importance_Manual_Testing** | Experimenting with adding and removing features to see how they impact model performance (evaluated using CRPS).                                                         |
+| (08) **Permutation_Importance_and_SHAP_Testing** | Looking at feature importance of different models through permutation importance and SHAP.                                                                              |
+| (09) **Testing_One-hot_Encoding_Seasons_and_Weekdays** | Evaluating whether one-hot encoding variables like season and weekday improves model accuracy.                                                               |
+| (10) **Feature_Selection**             | Finalizing the feature selection.                                                                                                                                       |
+| (11) **Hyperparameter_Tuning_Testing** | Running initial tests with hyperparameter tuning and ensuring the `tune_nn` function works correctly.                                                                  |
+| (12) **GridSearch_Evaluation_Testing** | Reviewing results from the first GridSearch experiment (*Notebook 11*).                                                                                               |
+| (13) **Initial_GridSearch**            | GridSearch with the finalized parameter grid of parameters that I want to tune and fewer layers per block.                                                              |
+| (14) **Initial_GridSearch_Evaluation** | Evaluating the GridSearch results from *Notebook 13*.                                                                                                                  |
+| (15) **Final_GridSearch**              | Running a final, more refined GridSearch to optimize the model and evaluating the final model.                                                                         |
+| (16) **Feature_Importance_Final_Model**| Investigating feature importance of the final trained model.                                                                                                           |
+| (17) **Hyperparameter_Tuning_Testing** | Reassessing an alternative hyperparameter tuning strategy—unclear if useful, **maybe delete????**.                                                                        |
 
 
