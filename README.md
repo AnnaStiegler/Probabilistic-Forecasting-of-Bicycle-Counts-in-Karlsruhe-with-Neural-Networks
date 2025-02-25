@@ -74,7 +74,7 @@ The notebooks do the following things:
 
 (13) **Initial_GridSearch**: GridSearch with the finalized parameter grid of parameters that I want to tune and fewer layers per block.   
 
-(14) **Initial_GridSearch_Evaluation**: Evaluating the GridSearch results from (*Notebook 13*).  
+(14) **Initial_GridSearch_Evaluation**: Evaluating the GridSearch results from *Notebook 13*.  
 
 (15) **Final_GridSearch**: Running a final, more refined GridSearch to optimize the model and evaluating the final model.  
 
