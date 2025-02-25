@@ -37,7 +37,7 @@ The jupyter notebooks are sorted in chronological order of how they were created
 
 ### Most important Notebooks
 
-The most important notebooks are notebooks 1-5, 10, 13-16
+The most important notebooks are notebooks 1-5, 10 and 13-16
 
 
 ### Notebook Overview
