@@ -57,7 +57,9 @@ The notebooks do the following things:
 | (07) **Feature_Importance_Manual_Testing** | Experimenting with adding and removing features to see how they impact model performance (evaluated using CRPS).                                                         |
 | (08) **Permutation_Importance_and_SHAP_Testing** | Looking at feature importance of different models through permutation importance and SHAP.                                                                              |
 | (09) **Testing_One-hot_Encoding_Seasons_and_Weekdays** | Evaluating whether one-hot encoding variables like season and weekday improves model accuracy.                                                               |
-| (10) **Feature_Selection**             | Finalizing the feature selection.                                                                                                                                       |
+| (10) **Feature_Selection**             | Finalizing the feature selection. The final list of features is: col_keep = ['temperature',
+       'precipitation', 'public_holiday_indicator', 'is_workday', 'day_of_week', 'spring', 'summer',
+       'autumn', 'winter', 'windspeed', 'sun', 'school_holiday_indicator'].                                                                                                                                   |
 | (11) **Hyperparameter_Tuning_Testing** | Running initial tests with hyperparameter tuning and ensuring the `tune_nn` function works correctly.                                                                  |
 | (12) **GridSearch_Evaluation_Testing** | Reviewing results from the first GridSearch experiment (*Notebook 11*).                                                                                               |
 | (13) **Initial_GridSearch**            | GridSearch with the finalized parameter grid of parameters that I want to tune and fewer layers per block.                                                              |
