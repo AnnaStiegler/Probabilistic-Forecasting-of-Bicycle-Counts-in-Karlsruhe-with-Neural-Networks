@@ -62,7 +62,7 @@ The notebooks do the following things:
 | (12) **GridSearch_Evaluation_Testing** | Reviewing results from the first GridSearch experiment (*Notebook 11*).                                                                                               |
 | (13) **Initial_GridSearch**            | GridSearch with the finalized parameter grid of parameters that I want to tune and fewer layers per block.                                                              |
 | (14) **Initial_GridSearch_Evaluation** | Evaluating the GridSearch results from *Notebook 13*.                                                                                                                  |
-| (15) **Final_GridSearch**              | Running a final, more refined GridSearch to optimize the model and evaluating the final model.                                                                         |
+| (15) **Final_GridSearch**              | Running a final GridSearch to find the optimal number of blocks and evaluating the final model.                                                                         |
 | (16) **Feature_Importance_Final_Model**| Investigating feature importance of the final trained model.                                                                                                           |
 | (17) **Hyperparameter_Tuning_Testing** | Reassessing an alternative hyperparameter tuning strategy—unclear if useful, **maybe delete????**.                                                                        |
 
