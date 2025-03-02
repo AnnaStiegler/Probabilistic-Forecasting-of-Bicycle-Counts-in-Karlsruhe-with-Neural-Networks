@@ -4,7 +4,7 @@ This repository contains the code for the Bachelors Thesis of Anna-Isabell Stieg
 The thesis' aim is developing a neural network that predicts the mean and standard deviation of bicycle counts in Karlsruhe using different meteorological and date-related predictors.
 
 ## Thesis Abstract
-- put abstract here - 
+Probabilistic forecasting has gained increasing attention for its ability to account for uncertainty, enabling more informed decision-making. In the context of infrastructure planning, accurate bicycle traffic predictions are crucial for developing sustainable transportation policies. This study develops a neural network-based probabilistic model to forecast daily bicycle counts in Karlsruhe, using a variety of meteorological and date-related predictors. The model assumes a normal distribution of bicycle counts and predicts both their mean and standard deviation. A dataset of historical bicycle counts and weather conditions is preprocessed, enriched with additional features and used for training. Different neural network architectures are tested and hyperparameter tuning is applied to optimize performance. While the final model outperforms benchmark models in predictive accuracy, both models struggle with calibration due to the incorrect normality assumption. These findings emphasize key factors for influencing cycling activity and highlight the potential of deep learning for transport forecasting, though further work is needed to address model limitations and refine the predictions.
 
 ## How to Use the Project
 
